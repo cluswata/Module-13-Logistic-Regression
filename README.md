@@ -68,15 +68,15 @@ weighted avg       0.81      0.83      0.79       275
 [[214   6]
 [ 42  13]]
 
-**Model Interpretation Summary:**<br>
+**Model Interpretation Summary:** <br>
 
 The logistic regression model shows a high log-likelihood and significant LR chi-squared statistic, indicating a good fit to the data and statistical significance of the predictors. However, the HL test suggests a lack of fit, indicating that predicted probabilities do not match observed frequencies well across groups.
 
-The model's performance metrics on the test set (accuracy, precision, recall, f1-score, ROC-AUC) show promising results, with accuracy of 0.8255 indicating overall good predictive performance, especially for class 0 (non-bankrupt companies).
+The model's performance metrics on the test set (accuracy, precision, recall, f1-score, ROC-AUC) show promising results, with accuracy of 0.8255 indicating overall good predictive performance, especially for class 0 (non-bankrupt companies). The Area Under the curve (AUC = 0.81) indicates that the model has good predictive accuracy. The model has the power to discriminate bankrupt cases from non-bankrupt ones.
 
 Overall, while the model demonstrates statistical significance and reasonable predictive performance, the discrepancy highlighted by the Hosmer-Lemeshow (HL) test warrants further investigation into potential model refinement or data considerations.
 
-**Interpretation of parameter estimates:**<br> <br>
+**Interpretation of parameter estimates:** <br> <br>
 **Fixed Assets Turnover Frequency:** A higher turnover frequency of fixed assets (Coef. = 0.2130) is associated with an increased log-odds of bankruptcy (p< 0.001). Companies with more frequent turnover of fixed assets are more likely to be predicted as bankrupt.
 
 **Interest-bearing debt interest rate:** A higher interest-bearing debt interest rate (Coef. = -0.1068) is associated with a decreased log-odds of bankruptcy (p = 0.002). Companies with higher interest rates on their debt are less likely to be predicted as bankrupt. This could indicate that despite higher costs of borrowing (higher interest rates), these companies are able to secure financing to cover their obligations, thereby reducing the likelihood of bankruptcy.
