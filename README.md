@@ -17,12 +17,12 @@ The dataset used for this project is sourced from the UCI Machine Learning Repos
 
 **Data Exploration:**
 **Exploratory Data Analysis (EDA):** Carreid out to understand the distribution of features, detect outliers, and assess correlations between variables.
-**Visualization:** histograms, pair plots, correlation matrices, confusion matrices, and area under the ROC (ROC-AUC) plotted in order to gain insights into the data.
+**Visualization:** bar plot, pair plots, correlation matrices, confusion matrices, and area under the ROC (ROC-AUC) plotted in order to gain insights into the data.
 
 **Data Preparation and Feature Engineering:**
 **Data Cleaning:** Missing values, duplicated records, outliers, and inconsistencies in the dataset assesed.<br>
-**Trasformations:** Features were normalized or standardized prior to modelling. L2 regularization for handling any multicollinear features. Due to shortage of time, no new features nor complex interactions between variables were derived.<br>
-**Dataset:** Because of the low bankruptcy rate (220/6819), a sample of 1 record from X where y=1 for every 4 records from X where y=0 were selected (220/1100).<br>
+**Transformations:** Features were normalized or standardized prior to modelling. L2 regularization for handling any multicollinear features. Due to shortage of time, no new features nor complex interactions between features were derived.<br>
+**Dataset:** Because of the low bankruptcy rate (220/6819), a sample of 1 record from X where y=1 for every 4 records from X where y=0 was selected (220/1100).<br>
 **Train-Test Split:** Total sample size (N = 1100) was split into training (75%) and testing (25%) sets after shuffling.<br>
 **Feature Selection:** Permutation importance with logistic regression was used to identify and keep only the most important 10 features.
 
