@@ -74,7 +74,7 @@ The logistic regression model shows a high log-likelihood and significant LR chi
 
 The model's performance metrics on the test set (accuracy, precision, recall, f1-score, ROC-AUC) show promising results, with accuracy of 0.8255 indicating overall good predictive performance, especially for class 0 (non-bankrupt companies).
 
-Overall, while your model demonstrates statistical significance and reasonable predictive performance, the discrepancy highlighted by the Hosmer-Lemeshow (HL) test warrants further investigation into potential model refinement or data considerations.
+Overall, while the model demonstrates statistical significance and reasonable predictive performance, the discrepancy highlighted by the Hosmer-Lemeshow (HL) test warrants further investigation into potential model refinement or data considerations.
 
 **Interpretation of parameter estimates:**<br> <br>
 **Fixed Assets Turnover Frequency:** A higher turnover frequency of fixed assets (Coef. = 0.2130) is associated with an increased log-odds of bankruptcy (p< 0.001). Companies with more frequent turnover of fixed assets are more likely to be predicted as bankrupt.
