@@ -1,4 +1,4 @@
-**Taiwanese Bankruptcy Prediction using Logistic Regression**
+**Taiwanese Companies Bankruptcy Prediction using Logistic Regression**
 
 **Business Understanding**
 Bankruptcy prediction is critical for financial stability and risk management. By accurately identifying companies at risk of bankruptcy, stakeholders can take proactive measures to mitigate financial losses and protect investments.
