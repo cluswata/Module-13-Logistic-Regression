@@ -1,4 +1,4 @@
-**Taiwanese Companies Bankruptcy Prediction using Logistic Regression**
+# Taiwanese Companies Bankruptcy Prediction using Logistic Regression
 
 **Business Understanding**
 Bankruptcy prediction is critical for financial stability and risk management. By accurately identifying companies at risk of bankruptcy, stakeholders can take proactive measures to mitigate financial losses and protect investments.
@@ -35,38 +35,18 @@ Tune hyperparameters if necessary (e.g., regularization strength) using cross-va
 **Model Evaluation Metrics:** Assessed accuracy, precision, recall, F1-score and ROC-AUC to understand model performance. The confusion matrix was assessed to understand true positives, true negatives, false positives, and false negatives.
 
 
-**Model Equation:**
- log(p / (1 - p)) = -2.0855 + (0.2130 *  Fixed Assets Turnover Frequency) + (-0.1068 *  Interest-bearing debt interest rate) + (0.3075 *  Cash/Current Liability) + (-0.0508 *  Long-term Liability to Current Assets) + (0.1587 *  Quick Asset Turnover Rate) + (-0.0917 *  Interest Expense Ratio) + (-0.0935 *  Regular Net Profit Growth Rate) + (-0.1425 *  Continuous Net Profit Growth Rate) + (0.1180 *  Net Value Growth Rate) + (-0.9108 *  Total Asset Return Growth Rate Ratio) + (-0.0150 *  Cash Reinvestment %) + (-2.8550 *  Current Ratio)
+**Results:**
 
-Log-Likelihood: 0.8460606060606061
-Number of Observations (N): 825
-LR Chi-squared: 1396.0
-Prob > Chi-squared: 1.013130006148348e-291
+![bargraph](Graphs/bargraph.png)
 
-Hosmer-Lemeshow Test:
-HL Chi-squared: 5474.6639
-HL Degrees of Freedom: 8
-HL p-value: 0.0000
+![class_report](Graphs/class_report.png)
 
-Model Evaluation on Test Set:
-Accuracy: 0.8255
-Precision: 0.6842
-Recall: 0.2364
-F1-score: 0.3514
-ROC-AUC: 0.8069
+![coeff](Graphs/coeff.png)
 
-Classification Report:
-              precision    recall  f1-score   support
+![roc](Graphs/roc.png)
 
-           0       0.84      0.97      0.90       220
-           1       0.68      0.24      0.35        55
+![confusionMatrix](Graphs/confusionMatrix.png)
 
-    accuracy                           0.83       275
-   macro avg       0.76      0.60      0.63       275
-weighted avg       0.81      0.83      0.79       275
-
-[[214   6]
-[ 42  13]]
 
 **Model Interpretation Summary:** <br>
 
