@@ -39,9 +39,9 @@ Tune hyperparameters if necessary (e.g., regularization strength) using cross-va
 
 ![bargraph](Graphs/bargraph.png)
 
-![class_report](Graphs/class_report.png)
-
 ![coeff](Graphs/coeff.png)
+
+![class_report](Graphs/class_report.png)
 
 ![roc](Graphs/roc.png)
 
